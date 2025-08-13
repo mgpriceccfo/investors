@@ -1,2 +1,11 @@
 ccfo-starter-kit-docs/
 shopify-app-backup/
+
+# Ignore backup directories and starter kit
+ccfo-starter-kit-docs/
+shopify-app-backup/
+
+# Standard ignores
+node_modules/
+.shopify/
+.env
