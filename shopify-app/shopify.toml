@@ -1,0 +1,16 @@
+name = "CCFO Investor Portal"
+client_id = "93ae5b0c8d5159c598e0413fdaefd8e3"
+application_url = "https://clanculture.org"
+embedded = true
+
+[auth]
+redirect_urls = [
+  "https://clanculture.org/auth/callback"
+]
+
+[scopes]
+products = "write"
+customers = "write"
+
+[store]
+development = "clanculturefamilyoffice.myshopify.com"
